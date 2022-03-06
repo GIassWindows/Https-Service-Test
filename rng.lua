@@ -11,15 +11,15 @@ local debris = game:GetService("Debris")
 while wait(2) do
 	local rng = math.random(1, 10)
 	if rng >= 5 then -- if rng is greater or equal to 5. (50% chance)
+		
 		-- Variables --
 		
 		local verify = true
-		
-		-- Part information --
 		local randomPos, randomPos2 = math.random(1, 25), math.random(1, 25)
 		
-		local part = Instance.new("Part", workspace)
+		-- Part information --
 		
+		local part = Instance.new("Part", workspace)
 		part.Anchored = true
 		part.Position = Vector3.new(randomPos, 0, randomPos2)
 		part.Size = Vector3.new(math.random(1, 10), math.random(1, 10), math.random(1, 10))
