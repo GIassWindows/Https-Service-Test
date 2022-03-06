@@ -89,6 +89,6 @@ while wait(2) do
 		data = http:JSONEncode(content)
 		http:PostAsync(altWebhook, data)
 		
-		print("man. i wish "..rng.." was greater or equal to 2..")
+		print("man. i wish "..rng.." was greater or equal to 5..")
 	end
 end
